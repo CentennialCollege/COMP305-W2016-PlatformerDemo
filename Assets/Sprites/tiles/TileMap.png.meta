@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 09317ce08e6fe4c11a9f80169bf141ea
+timeCreated: 1455038020
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TileMap_0
+    21300002: TileMap_1
+    21300004: TileMap_2
+    21300006: TileMap_3
+    21300008: TileMap_4
+    21300010: TileMap_5
+    21300012: TileMap_6
+    21300014: TileMap_7
+    21300016: TileMap_8
+    21300018: TileMap_9
+    21300020: TileMap_10
+    21300022: TileMap_11
+    21300024: TileMap_12
+    21300026: TileMap_13
+    21300028: TileMap_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: TileMap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 784.8
+        width: 196
+        height: 196.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 81.29999}
+        - {x: -10, y: 81.29999}
+        - {x: -51, y: 77.29999}
+        - {x: -79, y: 73.29999}
+        - {x: -95, y: 70.29999}
+        - {x: -95, y: 96.29999}
+        - {x: 98, y: 96.29999}
+        - {x: 98, y: 99.29999}
+        - {x: -98, y: 99.29999}
+        - {x: -98, y: -97.70001}
+        - {x: 98, y: -97.70001}
+        - {x: 98, y: 72.29999}
+        - {x: 88, y: 75.29999}
+    - name: TileMap_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 784.8
+        width: 196
+        height: 196.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -98, y: 99.29999}
+        - {x: -98, y: 96.29999}
+        - {x: 56, y: 96.29999}
+        - {x: 30, y: 95.29999}
+        - {x: 60, y: 65.29999}
+        - {x: 16, y: 56.299988}
+        - {x: 1, y: 58.299988}
+        - {x: -92, y: 71.29999}
+        - {x: -98, y: 71.29999}
+        - {x: -98, y: -97.70001}
+        - {x: 98, y: -97.70001}
+        - {x: 98, y: 99.29999}
+    - name: TileMap_2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 784.8
+        width: 196
+        height: 196.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -98, y: 99.29999}
+        - {x: -98, y: -97.70001}
+        - {x: 98, y: -97.70001}
+        - {x: 98, y: 99.29999}
+    - name: TileMap_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588.8
+        width: 196
+        height: 196.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: 92.29999}
+        - {x: 97, y: 94.29999}
+        - {x: 92, y: 99.29999}
+        - {x: -94, y: 99.29999}
+        - {x: -98, y: 94.29999}
+        - {x: -98, y: -91.70001}
+        - {x: -93, y: -96.70001}
+        - {x: -89, y: -97.70001}
+        - {x: 89, y: -97.70001}
+        - {x: 97, y: -90.70001}
+        - {x: 97, y: -89.70001}
+        - {x: 98, y: -88.70001}
+    - name: TileMap_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 588.8
+        width: 196
+        height: 196.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: 94.29999}
+        - {x: 93, y: 99.29999}
+        - {x: -94, y: 99.29999}
+        - {x: -97, y: 96.29999}
+        - {x: -97, y: 95.29999}
+        - {x: -98, y: 94.29999}
+        - {x: -98, y: -91.70001}
+        - {x: -91, y: -97.70001}
+        - {x: 90, y: -97.70001}
+        - {x: 92, y: -96.70001}
+        - {x: 98, y: -90.70001}
+    - name: TileMap_5
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 588.8
+        width: 196
+        height: 196.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: -89.70001}
+        - {x: 98, y: 93.29999}
+        - {x: 93, y: 99.29999}
+        - {x: -93, y: 99.29999}
+        - {x: -98, y: 94.29999}
+        - {x: -98, y: -90.70001}
+        - {x: -93, y: -96.70001}
+        - {x: -91, y: -97.70001}
+        - {x: 90, y: -97.70001}
+        - {x: 91, y: -96.70001}
+        - {x: 96, y: -92.70001}
+        - {x: 96, y: -91.70001}
+    - name: TileMap_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 392.8
+        width: 196
+        height: 196.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: 92.29999}
+        - {x: 94, y: 98.29999}
+        - {x: 91, y: 99.29999}
+        - {x: -93, y: 99.29999}
+        - {x: -98, y: 94.29999}
+        - {x: -98, y: -91.70001}
+        - {x: -95, y: -95.70001}
+        - {x: -90, y: -97.70001}
+        - {x: 90, y: -97.70001}
+        - {x: 93, y: -96.70001}
+        - {x: 98, y: -91.70001}
+    - name: TileMap_7
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 392.8
+        width: 196
+        height: 196.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: 93.29999}
+        - {x: 95, y: 97.29999}
+        - {x: 93, y: 97.29999}
+        - {x: 91, y: 99.29999}
+        - {x: -94, y: 99.29999}
+        - {x: -98, y: 94.29999}
+        - {x: -98, y: -91.70001}
+        - {x: -94, y: -96.70001}
+        - {x: -91, y: -97.70001}
+        - {x: 90, y: -97.70001}
+        - {x: 93, y: -96.70001}
+        - {x: 97, y: -92.70001}
+        - {x: 98, y: -89.70001}
+    - name: TileMap_8
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 392.8
+        width: 196
+        height: 196.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: 94.29999}
+        - {x: 92, y: 99.29999}
+        - {x: -92, y: 99.29999}
+        - {x: -98, y: 95.29999}
+        - {x: -98, y: -92.70001}
+        - {x: -94, y: -96.70001}
+        - {x: -91, y: -97.70001}
+        - {x: 90, y: -97.70001}
+        - {x: 93, y: -96.70001}
+        - {x: 97, y: -92.70001}
+        - {x: 98, y: -89.70001}
+    - name: TileMap_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196.8
+        width: 196
+        height: 196.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: 92.3}
+        - {x: 92, y: 99.3}
+        - {x: -91, y: 99.3}
+        - {x: -94, y: 98.3}
+        - {x: -97, y: 94.3}
+        - {x: -98, y: 93.3}
+        - {x: -98, y: -92.7}
+        - {x: -93, y: -96.7}
+        - {x: -92, y: -96.7}
+        - {x: -91, y: -97.7}
+        - {x: 91, y: -97.7}
+        - {x: 94, y: -96.7}
+        - {x: 97, y: -92.7}
+        - {x: 98, y: -91.7}
+    - name: TileMap_10
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 196.8
+        width: 196
+        height: 196.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: 94.3}
+        - {x: 94, y: 98.3}
+        - {x: 91, y: 99.3}
+        - {x: -91, y: 99.3}
+        - {x: -96, y: 95.3}
+        - {x: -98, y: 92.3}
+        - {x: -98, y: -90.7}
+        - {x: -94, y: -96.7}
+        - {x: -91, y: -97.7}
+        - {x: 93, y: -97.7}
+        - {x: 98, y: -92.7}
+    - name: TileMap_11
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 196.8
+        width: 196
+        height: 196.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93, y: 99.3}
+        - {x: -92, y: 99.3}
+        - {x: -98, y: 93.3}
+        - {x: -98, y: -91.7}
+        - {x: -92, y: -97.7}
+        - {x: 92, y: -97.7}
+        - {x: 97, y: -93.7}
+        - {x: 98, y: -92.7}
+        - {x: 98, y: 93.3}
+    - name: TileMap_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.80000305
+        width: 196
+        height: 196.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: 93.3}
+        - {x: 93, y: 98.3}
+        - {x: 90, y: 99.3}
+        - {x: -91, y: 99.3}
+        - {x: -98, y: 92.3}
+        - {x: -98, y: -91.7}
+        - {x: -93, y: -97.7}
+        - {x: 93, y: -97.7}
+        - {x: 98, y: -92.7}
+    - name: TileMap_13
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0.80000305
+        width: 196
+        height: 196.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: 91.3}
+        - {x: 94, y: 96.3}
+        - {x: 91, y: 99.3}
+        - {x: -91, y: 99.3}
+        - {x: -94, y: 98.3}
+        - {x: -98, y: 93.3}
+        - {x: -98, y: -92.7}
+        - {x: -94, y: -97.7}
+        - {x: 91, y: -97.7}
+        - {x: 96, y: -93.7}
+        - {x: 96, y: -92.7}
+        - {x: 98, y: -90.7}
+    - name: TileMap_14
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0.80000305
+        width: 196
+        height: 196.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: -91.7}
+        - {x: 98, y: 92.3}
+        - {x: 94, y: 97.3}
+        - {x: 93, y: 97.3}
+        - {x: 91, y: 99.3}
+        - {x: -92, y: 99.3}
+        - {x: -98, y: 93.3}
+        - {x: -98, y: -92.7}
+        - {x: -93, y: -97.7}
+        - {x: 94, y: -97.7}
+        - {x: 97, y: -93.7}
+        - {x: 97, y: -92.7}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
