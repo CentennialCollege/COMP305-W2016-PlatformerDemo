@@ -137,6 +137,12 @@ public class HeroController : MonoBehaviour {
 			this.gameController.ScoreValue += 10;
 		}
 
+		if(other.gameObject.CompareTag("SpikedWheel")) {
+			this._hurtSound.Play ();
+			this.gameController.LivesValue--;
+		}
+
+
 		if(other.gameObject.CompareTag("Death")) {
 			this._spawn ();
 			this._hurtSound.Play ();

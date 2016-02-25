@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\_Scripts\GameController.cs" />
      <Compile Include="Assets\_Scripts\HeroController.cs" />
+     <Compile Include="Assets\_Scripts\SpikedWheelController.cs" />
      <None Include="Assets\Editor\SettingsTexturePackerImporter.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
