@@ -23,6 +23,8 @@ public class HeroController : MonoBehaviour {
 	public float moveForce;
 	public float jumpForce;
 	public Transform groundCheck;
+	public Transform camera;
+	public GameController gameController;
 
 	// PRIVATE  INSTANCE VARIABLES
 	private Animator _animator;
@@ -45,18 +47,21 @@ public class HeroController : MonoBehaviour {
 		this._move = 0f;
 		this._jump = 0f;
 		this._facingRight = true;
+
+		// place the hero in the starting position
+		this._spawn ();
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+		Vector3 currentPosition = new Vector3 (this._transform.position.x, this._transform.position.y, -10f);
+		this.camera.position = currentPosition;
+
 		this._isGrounded = Physics2D.Linecast (
 			this._transform.position, 
 			this.groundCheck.position,
 			1 << LayerMask.NameToLayer ("Ground"));
 		Debug.DrawLine (this._transform.position, this.groundCheck.position);
-
-
-
 
 		float forceX = 0f;
 		float forceY = 0f;
@@ -108,10 +113,17 @@ public class HeroController : MonoBehaviour {
 			// call the "jump" clip
 			this._animator.SetInteger ("AnimState", 2);
 		}
-
-		Debug.Log (forceX);
+			
 		// Apply the forces to the player
 		this._rigidBody2D.AddForce (new Vector2 (forceX, forceY));
+	}
+
+
+	void OnCollisionEnter2D(Collision2D other) {
+		if(other.gameObject.CompareTag("Death")) {
+			this._spawn ();
+			this.gameController.LivesValue--;
+		}
 	}
 
 	// PRIVATE METHODS
@@ -121,5 +133,9 @@ public class HeroController : MonoBehaviour {
 		} else {
 			this._transform.localScale = new Vector2 (-1, 1);
 		}
+	}
+
+	private void _spawn() {
+		this._transform.position = new Vector3 (-125f, 125f, 0);
 	}
 }

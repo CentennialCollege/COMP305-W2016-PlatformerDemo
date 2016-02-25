@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Scripts\GameController.cs" />
      <Compile Include="Assets\_Scripts\HeroController.cs" />
      <None Include="Assets\Editor\SettingsTexturePackerImporter.txt" />
  <Reference Include="UnityEngine.UI">
